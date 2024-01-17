@@ -8,6 +8,9 @@ const bottone = document.getElementById("genera")
 bottone.addEventListener("click", function(){
     griglia.innerHTML = ""
 
+
+    // assegnazione del numero di caselle da generare in base alla difficoltà scelta
+
     const modeHTML = document.getElementById("mode").value
     console.log(modeHTML)
     let maxbox=100
@@ -21,7 +24,7 @@ bottone.addEventListener("click", function(){
 
 
     
-    
+    // controllo difficolta
 
 
     for(let i=0;i<maxbox;i++){
@@ -39,9 +42,10 @@ bottone.addEventListener("click", function(){
         }
         
         
+        // aggiunta classe quando la casella cliccata
         
         newdiv.addEventListener("click",function(){
-            this.classList.toggle("colore", alert(i+1))
+            this.classList.toggle("colore", console.log(i+1))
 
         })
 
