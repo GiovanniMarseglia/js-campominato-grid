@@ -11,6 +11,7 @@ body{
 header{
     width: 100%;
     border: 1px solid black;
+    height: 10vh;
 }
 
 
@@ -19,6 +20,7 @@ header div{
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
+    height: 100%;
     
 }
 
@@ -43,7 +45,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85%;
+    height: 80vh;
     width: 100%;
 }
 
@@ -64,9 +66,7 @@ main{
     aspect-ratio: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #7FFFD4;
-    
+    justify-content: center; 
 }
 
 .colore{
@@ -79,6 +79,7 @@ footer{
     display: flex;
     align-items: center;
     padding: 1%;
+    height: 10vh;
 }
 
 
